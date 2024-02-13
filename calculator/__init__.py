@@ -1,6 +1,7 @@
-def add(a,b):
-    return a + b
+from calculator.calculations import Calculations
+from calculator.operations import add, subtract, multiply, divide
 
+<<<<<<< HEAD
 def subtract(a,b):
     return a - b
 
@@ -9,3 +10,25 @@ def multiply(a,b):
 
 def divide(a,b):
     return a / b
+=======
+class calculator:
+    @staticmethod
+    def add(a,b):
+        calculation = Calculations(a,b,add) # This function is coming from thr operations folder
+        return calculation.get_result()
+    @staticmethod
+    def subtract (a,b):
+        calculation = Calculations(a,b,subtract)
+        return calculation.get_result()
+    
+    @staticmethod
+    def multiply(a,b):
+        calculation = Calculations(a,b,multiply)
+        return calculation.get_result()
+    
+    @staticmethod
+    def divide(a,b):
+        calculation = Calculations(a,b,divide)
+        return calculation.get_result()
+    
+>>>>>>> part_2
