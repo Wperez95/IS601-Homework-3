@@ -1,7 +1,5 @@
-#Project Install Instructions
+#IS601 HW 3
 
 1. clone
 2. pip3 install -r requirements.txt
-# IS601-Homework-2-python
-# IS601-Homework-2-python
-# IS601-Homework-3
+
