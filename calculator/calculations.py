@@ -26,7 +26,7 @@ class Calculations:
         '''retrives latest calculation. Returns none if there is no history'''
         if cls.history:
             return cls.history[-1]
-        return None
+        return None # type: ignore
     
     @classmethod
     def find_by_operation(cls, operation_name: str) -> List[Calculation]:

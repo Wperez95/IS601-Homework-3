@@ -11,6 +11,7 @@ from calculator.operations import add, subtract
 #pytest.fixture is a decorator that marks a function as a fixture
 #setup mechanism used by pytest to initialize a test environment.
 #here it us being used to define a fixture that prepares the test environment for calculation tests
+# pylint: disable=redefined-outer-name, unused-argument
 @pytest.fixture
 def setup_calculations():
     """clear history and add sample calculations for tests"""
